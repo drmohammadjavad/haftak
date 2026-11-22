@@ -378,4 +378,12 @@
     font-size: 7px !important;
     line-height: 1.2 !important;
   }
+
+  .print-category-chip {
+    color: #000 !important;
+    background: #eee !important;
+    border: 1px solid #777 !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
 }

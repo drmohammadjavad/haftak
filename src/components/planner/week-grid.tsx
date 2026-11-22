@@ -284,7 +284,7 @@ function ActivityCard({
         ) : null}
         <span
           className={cn(
-            "mt-1 inline-block rounded px-1.5 py-0.5 text-[10px]",
+            "print-category-chip mt-1 inline-block rounded px-1.5 py-0.5 text-[10px]",
             categoryStyles?.chip,
           )}
           style={tileStyles?.chip}
