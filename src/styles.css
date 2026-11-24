@@ -232,7 +232,7 @@
 
 /* Print / PDF: transposed 7-day x 9-column week on one A4 landscape page. */
 @media print {
-  * {
+  *:not(.print-category-chip) {
     color: black !important;
   }
   
@@ -380,9 +380,6 @@
   }
 
   .print-category-chip {
-    color: #000 !important;
-    background: #eee !important;
-    border: 1px solid #777 !important;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
